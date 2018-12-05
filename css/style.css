@@ -1,0 +1,444 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+
+}
+
+body {
+  background-color: lightgray;
+  padding: 10px;
+
+
+}
+
+.main {
+  width= 100%;
+  margin:0 auto;
+  text-align: center;
+}
+
+a {
+  text-decoration:  none;
+}
+
+a:link, a:visited {
+  color: black;
+}
+
+nav a:hover {
+  color: white;
+}
+
+
+.main-nav .name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul .main-ul {
+  width: 100%;
+}
+
+.main-ul li {
+  margin-bottom: 5px;
+  padding: 20px;
+  background-color: #1F7A7A;
+  font-family: 'Montserrat', sans-serif;
+  list-style-type: none;
+  margin-left: -40px;
+  margin-right: 20px;
+}
+
+.profile-image {
+  margin: 0 auto;
+  width: 100%;
+  padding-top: 10px;
+  padding: 0 10px;
+  border-bottom: 2px solid grey;
+  margin-top:10px;
+  margin-right: 10px;
+}
+
+.profile p {
+  font-size: 18px;
+  font-weight: lighter;
+  color: black;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-bottom: 2px solid grey;
+  margin-bottom: 5px;
+  padding-bottom: 10px;
+  font-family: 'Open Sans Condensed', sans-serif;
+
+
+}
+
+.main-content {
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom:20px;
+  padding-top: 5px;
+}
+
+div .card {
+  background-color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+}
+
+div
+.main-content .card  {
+  font-size: 20px;
+}
+
+.main-content .card img {
+ margin: 0 auto;
+ width: 100%;
+ padding: 15px;
+}
+
+.main-content .card p {
+  color: black;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 20px;
+  background-color: white;
+
+}
+
+.skills p {
+  color: black;
+  font-size: 15px;
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skills .skill-info {
+  border-top: 2px solid grey;
+  margin-top: 25px;
+  padding-top: 20px;
+}
+
+.skills ul {
+  font-size: 12px;
+  font-weight: bold;
+  display: inline;
+  text-transform: uppercase;
+  list-style-type: none;
+}
+
+.skills li {
+  width: 40%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 5px;
+  background-color: #1F7A7A;
+  border-radius: 5px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 15px;
+  border: solid black 2px;
+}
+
+  .skills li:nth-child(even) {
+    background: white;
+  }
+
+.contact-info {
+  border-top: 2px solid grey;
+  margin-top: 5px;
+  padding-top: 20px;
+}
+
+.skills .skills-info,
+.contact-info .contact {
+   font-size: 15px;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.phone-number {
+  color: black;
+}
+
+.contact-section p {
+  font-family: 'Open Sans Condensed', sans-serif;
+
+}
+
+footer {
+  background-color: #1F7A7A;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-nav {
+  border-top: 2px solid grey;
+  margin-top: 25px;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footer-nav h3, .top {
+  display: inline;
+  font-size: 15px;
+  padding: 10px;
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: smaller;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.footer-nav a:hover {
+  color: white;
+}
+
+.footer-ul {
+  display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 768px) {
+
+  a {
+    text-decoration: none;
+  }
+
+  a:link, a:visited {
+    color: black;
+  }
+
+  a:hover {
+    color: #FFDF00;
+  }
+
+  .main-nav {
+    background-color: #1F7A7A;
+    padding-top: 5px;
+  }
+  .main-nav .name {
+    font-size: 35px;
+    margin: 30px 0 10px;
+  }
+
+  .main-nav ul {
+    display: inline-flex;
+    padding: 0;
+    margin: 0;
+  }
+
+  .main-nav li {
+    font-size: 15px;
+    background-color: inherit;
+    margin-top: 5px;
+    padding-left: 50px;
+
+  }
+
+  .main-ul li a {
+    padding-right: 20px;
+    padding-left: 20px;
+    padding: 5px 20px;
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: lightgray;
+  }
+
+  .profile {
+    display: inline-flex;
+    margin: 20px 20px;
+    flex-direction: row-reverse;
+  }
+
+  .profile-image {
+    width: inherit;
+    border: 0;
+    padding-right: -20px;
+  }
+
+  .profile p {
+    font-size: 20px ;
+    font-weight: lighter;
+    color: rgba(41, 39, 39, 0.86);
+    width: 50%;
+    margin-top: 30px;
+    border: 0;
+    padding-right: 20px;
+    text-align: left;
+  }
+
+  .main-content .card {
+    width: 50%;
+    padding-top: 20px;
+  }
+
+  .main-content .row-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main-content .card p {
+    padding: 0 10px;
+  }
+
+  .skills {
+    padding-top: 20px;
+
+  }
+
+  .skills p {
+    text-align: center;
+  }
+
+  .skills li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+
+  .contact-info p, .phone, .email {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .footer-nav {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 30px;
+  }
+
+  .footer-nav .name {
+    display: block;
+    font-size: 15px;
+    margin-left: 30px;
+  }
+
+  .footer-ul {
+    display: block;
+    list-style-type: none;
+  }
+
+  .footer-ul li {
+    display: inline;
+    padding-left: 1.25em;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+  .top {
+    display: none;
+  }
+}
+
+
+
+@media (min-width: 1024px) {
+  body {
+    max-width: 1040px;
+    margin: 0 auto;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:link, a:visited {
+    color: black;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  .main-nav  h2 {
+    font-weight: lighter;
+    padding-left: 20px;
+    padding-top: 15px;
+
+  }
+
+  .main-nav ul li {
+    padding-top: 50px;
+  }
+  .main-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 5px 0px 5px;
+    background-color: #1F7A7A;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .profile {
+    margin: 40px 20px;
+  }
+
+  .profile p {
+    font-size: 20px;
+    text-align: left;
+  }
+
+  .row-container .card {
+    width: 30%;
+    margin: 0 auto;
+  }
+
+  .main-content .card  {
+    font-size: 20px;
+    border: black solid 2px;
+    margin-bottom: 20px;
+    transition: all .5s;
+  }
+
+  .card:hover {
+    border-color: red;
+  }
+
+  .main-content .card p {
+    color: black;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: 'Montserrat', sans-serif;
+    padding: 0 20px;
+    background-color: white;
+  }
+
+  .skills p {
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+
+
+    .contact-info p {
+      text-align: center;
+      margin-left: 30px;
+      margin-right: 30px;
+    }
+}
