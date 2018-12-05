@@ -3,15 +3,10 @@
   box-sizing: border-box;
 }
 
-.container {
-
-}
 
 body {
   background-color: lightgray;
   padding: 10px;
-
-
 }
 
 .main {
@@ -39,11 +34,6 @@ nav a:hover {
   margin-bottom: 10px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
-
-}
-
-ul .main-ul {
-  width: 100%;
 }
 
 .main-ul li {
@@ -53,9 +43,6 @@ ul .main-ul {
   font-family: 'Montserrat', sans-serif;
   list-style-type: none;
   margin-left: -40px;
-  margin-right: 20px;
-
-
 }
 
 .profile-image {
@@ -78,8 +65,6 @@ ul .main-ul {
   margin-bottom: 5px;
   padding-bottom: 10px;
   font-family: 'Open Sans Condensed', sans-serif;
-
-
 }
 
 .main-content {
@@ -102,9 +87,9 @@ div
 }
 
 .main-content .card img {
- margin: 0 auto;
- width: 100%;
- padding: 15px;
+   margin: 0 auto;
+   width: 100%;
+   padding: 15px;
 }
 
 .main-content .card p {
@@ -114,7 +99,6 @@ div
   font-family: 'Montserrat', sans-serif;
   padding: 0 20px;
   background-color: white;
-
 }
 
 .skills p {
@@ -213,18 +197,6 @@ footer {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 @media (min-width: 768px) {
 
   a {
@@ -259,7 +231,6 @@ footer {
     background-color: inherit;
     margin-top: 5px;
     padding-left: 50px;
-
   }
 
   .main-ul li a {
@@ -280,15 +251,14 @@ footer {
   .profile-image {
     width: inherit;
     border: 0;
-    padding-right: -20px;
+    padding-top: 20px;
   }
 
   .profile p {
     font-size: 20px ;
     font-weight: lighter;
-    color: rgba(41, 39, 39, 0.86);
     width: 50%;
-    margin-top: 30px;
+    margin-top: 20px;
     border: 0;
     padding-right: 20px;
     text-align: left;
@@ -310,7 +280,6 @@ footer {
 
   .skills {
     padding-top: 20px;
-
   }
 
   .skills p {
@@ -383,16 +352,12 @@ footer {
     font-weight: lighter;
     padding-left: 20px;
     padding-top: 15px;
-
-  }
-  .main-nav li {
-    padding-left: 10px;
   }
 
   .main-nav ul li {
     padding-top: 50px;
-
   }
+
   .main-nav {
     display: flex;
     flex-direction: row;
@@ -441,7 +406,6 @@ footer {
     margin-left: 60px;
     margin-right: 60px;
   }
-
 
     .contact-info p {
       text-align: center;
