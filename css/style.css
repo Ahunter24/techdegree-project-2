@@ -15,7 +15,7 @@ body {
 }
 
 .main {
-  width= 100%;
+  width: 100%;
   margin:0 auto;
   text-align: center;
 }
@@ -39,6 +39,7 @@ nav a:hover {
   margin-bottom: 10px;
   text-transform: uppercase;
   font-family: 'Montserrat', sans-serif;
+
 }
 
 ul .main-ul {
@@ -53,6 +54,8 @@ ul .main-ul {
   list-style-type: none;
   margin-left: -40px;
   margin-right: 20px;
+
+
 }
 
 .profile-image {
@@ -62,7 +65,7 @@ ul .main-ul {
   padding: 0 10px;
   border-bottom: 2px solid grey;
   margin-top:10px;
-  margin-right: 10px;
+
 }
 
 .profile p {
@@ -382,9 +385,13 @@ footer {
     padding-top: 15px;
 
   }
+  .main-nav li {
+    padding-left: 10px;
+  }
 
   .main-nav ul li {
     padding-top: 50px;
+
   }
   .main-nav {
     display: flex;
